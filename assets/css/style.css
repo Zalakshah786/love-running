@@ -1,0 +1,17 @@
+/* asterick wild card */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: red; 
+}
+
+main{
+     background-color: cyan;
+}
+footer{
+    background-color: yellowgreen ;
+}
