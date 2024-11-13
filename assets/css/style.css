@@ -41,6 +41,16 @@ nav{
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
+    top: 100%;
+}
+#nav-toggle:checked~nav{
+    display:block;
+}
+#nav-toggle{
+    display: none;
+}
+.nav-toggle-label{
+    font-size: 2rem;
 }
 header{
     background-color:#ffffff; 
@@ -49,6 +59,9 @@ header{
     width: 100%;
     z-index: 99;
     box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 header a{
     text-decoration: none;
@@ -58,6 +71,7 @@ header a{
 main{
      background-color: cyan;
      flex: 1 0 auto;
+     margin-top: 47px;
 }
 footer{
     background-color: yellowgreen ;
