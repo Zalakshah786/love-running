@@ -69,9 +69,15 @@ header a{
 }
 
 main{
-     background-color: cyan;
+     
      flex: 1 0 auto;
      margin-top: 47px;
+}
+/*hero style*/
+#hero {
+    height: 600px;
+    width: 100%;
+    background-color: url("../images/hero-image.webp") no-repeat center center/cover;
 }
 #social-network{
     text-align: center;
