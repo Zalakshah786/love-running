@@ -193,8 +193,9 @@ main{
     }
    
 }
+
 /*1200px wide screen*/
-@media screen and (min-width: 1200px){
+@media screen and (min-width:1200px){
     #benefits {
         display: flex;
         flex-direction: row;
@@ -214,6 +215,4 @@ main{
     #benefits-physical > div {
         align-self: flex-end;
     }
-
-    
 }
